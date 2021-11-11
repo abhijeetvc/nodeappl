@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        let person={
+            firstName:'Abc',
+            lastName:'Xyz',
+        }
+
+    //    console.log(person.firstName);
+     //   console.log(person.city);
+        
+        person.city='Pune'
+        person.firstName='def'
+        console.log(person);
+        
+        let person1={
+            ...person,
+            city:'Mumbai'
+        }
+        console.log(person1);
+        
+        // const PI=3.14
+        // const PI=5
+
+        const car={
+            brand:'Audi',
+            color:'White',
+            price:7000000
+        }
+
+        car.brand='BMW'
+        car.model='ZX'
+        // const car={
+        //     brand:'Bmw',
+        //     color:'White',
+        //     price:8000000
+        // }
+        console.log(car);
+        
+    </script>
+</body>
+</html>

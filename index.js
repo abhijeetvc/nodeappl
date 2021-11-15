@@ -17,6 +17,7 @@ var http=require('http')
 var server=http.createServer((req,res)=>{
     if(req.url=='/saveData'){
     if(req.method=='POST'){
+        req.accept('application/json')
         var jsonString=''
        // console.log(req);
         req.on('data',function(data){

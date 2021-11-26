@@ -25,7 +25,8 @@ app.get('/check',(req,res)=>{
 app.post("/saveData",(req,res)=>{
     const user=req.body 
     console.log(user);
-    
+
+    res.send({'statusCode':201,'message':'success'})
 })
 
 app.listen(port,()=>{
